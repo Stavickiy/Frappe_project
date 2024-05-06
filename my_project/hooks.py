@@ -4,6 +4,8 @@ app_publisher = "Yevhen Stavytskyi"
 app_description = "Project by frappe"
 app_email = "stavickiydgo@gmail.com"
 app_license = "mit"
+
+
 # required_apps = []
 
 # Includes in <head>
@@ -226,4 +228,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-

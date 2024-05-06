@@ -1,0 +1,120 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-03 17:23:22.752130",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "logic_column",
+  "student_name",
+  "physical_education",
+  "logic",
+  "philosophy",
+  "physics",
+  "literature",
+  "english",
+  "computer_science",
+  "databases",
+  "programming",
+  "math"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Student name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "physical_education",
+   "fieldtype": "Int",
+   "label": "Physical education",
+   "reqd": 1
+  },
+  {
+   "fieldname": "logic",
+   "fieldtype": "Int",
+   "label": "Logic",
+   "reqd": 1
+  },
+  {
+   "fieldname": "philosophy",
+   "fieldtype": "Int",
+   "label": "Philosophy",
+   "reqd": 1
+  },
+  {
+   "fieldname": "physics",
+   "fieldtype": "Int",
+   "label": "Physics",
+   "reqd": 1
+  },
+  {
+   "fieldname": "literature",
+   "fieldtype": "Int",
+   "label": "Literature",
+   "reqd": 1
+  },
+  {
+   "fieldname": "english",
+   "fieldtype": "Int",
+   "label": "English",
+   "reqd": 1
+  },
+  {
+   "fieldname": "computer_science",
+   "fieldtype": "Int",
+   "label": "Computer science",
+   "reqd": 1
+  },
+  {
+   "fieldname": "programming",
+   "fieldtype": "Int",
+   "label": "Programming",
+   "reqd": 1
+  },
+  {
+   "fieldname": "math",
+   "fieldtype": "Int",
+   "label": "Math",
+   "reqd": 1
+  },
+  {
+   "fieldname": "logic_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "databases",
+   "fieldtype": "Int",
+   "label": "Databases",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-06 10:28:23.866807",
+ "modified_by": "Administrator",
+ "module": "Student",
+ "name": "Student grades",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
